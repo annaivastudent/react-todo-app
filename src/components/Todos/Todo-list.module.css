@@ -1,0 +1,57 @@
+.block_task{
+    width: 814px;
+    height: 68px;
+    background-color: #ECEDF2;
+    border: 3px solid #000000;
+    margin-left: 233px;
+    margin-bottom: 61px;
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+.icon_task{
+    width: 33px;
+    height: 33px;
+    margin-left: 21px;
+}
+.block_task>p{
+    color: #000000;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0%;
+}
+.buttons_todo{
+    display: flex;
+    justify-content: end;
+}
+.bin_button{
+    border: 0px;
+}
+.bin{
+    width: 33px;
+    height: 33px;
+    margin-right: 21px;
+}
+.buttons_todo{
+    display: flex;
+    margin-left: auto; 
+    gap: 20px;
+}
+.tick_button{
+    border: none;
+}
+.tick{
+    width: 33px;
+    height: 33px;
+    background-color: none;
+}
+.done{
+    text-decoration: line-through;
+}
+.change_button{
+    border: none;
+}
+.change{
+    width: 33px;
+    height: 33px;
+}

@@ -1,0 +1,28 @@
+.field_form{
+    width: 528px;
+    height: 50px;
+    background-color: #E1E2EC;
+    color: #000000;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    margin: 61px 62px 62px 233px;
+    padding-left: 71px;
+    font-size: 36px;
+    line-height: 50px;
+}
+.field_form::placeholder{
+    letter-spacing: 0%;
+    font-family: "Londrina Solid", sans-serif;
+}
+.submission_form{
+    width: 150px;
+    height: 50px;
+    background-color: #E2D8B4;
+    color: #000000;
+    font-family: "Londrina Solid", sans-serif;
+    border: 3px solid #000000;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0%;
+}
